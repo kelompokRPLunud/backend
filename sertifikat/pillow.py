@@ -44,7 +44,7 @@ def process(cv2_img,csv,xy,fontsiz,colour,font):
     xy=str(xy).split("|")
     for i in range(len(xy)):
         xy[i]=str(xy[i]).split(",")
-    fontsiz=fontsiz.split(",")
+    fontsiz=fontsiz.split("|")
     for i in hsl:
         if i[0]=="#":
             indexadd.append(i)

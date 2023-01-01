@@ -7,6 +7,9 @@ name = "pypi"
 pillow = "*"
 pandas = "*"
 zip-files = "*"
+djangorestframework = "*"
+djangorestframework-jwt = "*"
+django-rest-knox = "*"
 
 [dev-packages]
 
